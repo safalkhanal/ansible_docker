@@ -1,0 +1,11 @@
+---
+docker_deprecated_packages:
+  - docker
+  - docker-engine
+  - docker.io
+docker_prerequisite_packages:
+  - apt-transport-https
+  - ca-certificates
+  - curl
+  - software-properties-common
+

@@ -1,0 +1,8 @@
+---
+docker_deprecated_packages:
+  - docker
+  - docker-common
+  - docker-engine
+docker_prerequisite_packages:
+  - ca-certificates
+  - yum-utils
