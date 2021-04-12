@@ -12,6 +12,7 @@ Example Playbook
 ----------------
 
     - hosts: servers
+      become: yes
       roles:
          - role: respiro.install_docker
 
