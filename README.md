@@ -1,4 +1,4 @@
-install_docker
+ansible_role_docker
 =========
 
 Ansible role to install docker
@@ -13,7 +13,7 @@ Example Playbook
     - hosts: servers
       become: yes
       roles:
-         - role: respiro.install_docker
+         - role: respiro.ansible_role_docker
 
 License
 -------
